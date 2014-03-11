@@ -1,0 +1,5 @@
+\\vmware-host\shared folders\documents\visual studio 2012\Projects\CustomAuth\Janrain\bin\Release\Janrain.dll
+\\vmware-host\shared folders\documents\visual studio 2012\Projects\CustomAuth\Janrain\bin\Release\Janrain.pdb
+\\vmware-host\shared folders\documents\visual studio 2012\Projects\CustomAuth\Janrain\obj\Release\Janrain.csprojResolveAssemblyReference.cache
+\\vmware-host\shared folders\documents\visual studio 2012\Projects\CustomAuth\Janrain\obj\Release\Janrain.dll
+\\vmware-host\shared folders\documents\visual studio 2012\Projects\CustomAuth\Janrain\obj\Release\Janrain.pdb

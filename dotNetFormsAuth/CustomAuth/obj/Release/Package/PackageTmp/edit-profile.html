@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- Add your own Capture event handlers. To see the full list, run the following in the browser console: janrain.events  -->
+	<script type="text/javascript">
+	    function janrainCaptureWidgetOnLoad() {
+	        janrain.settings.capture.flowName = 'editProfile';
+	        janrain.settings.language = 'en';
+	        janrain.settings.capture.stylesheets = ['styles/janrain.css'];
+	        janrain.settings.capture.mobileStylesheets = ['styles/janrain-mobile.css'];
+
+	        janrain.capture.ui.start();
+	        janrain.events.onCaptureAccessDenied.addHandler(function () {
+	            window.location = 'Default.aspx';
+	        });
+	        janrain.events.onCaptureExpiredToken.addHandler(function () {
+	            window.location = 'Default.aspx';
+	        });
+	    }
+	</script>
+
+</head>
+<body>
+
+	<!-- During the development process, the configuration code will be loaded from Janrain servers so that we can help you customize it. When your site is ready to go live, the following script tag will be replaced with your customized javascript and HTML markup to provide the fastest possible user experience. -->
+	<script src="http://pse.janrain.com/customer_dev/1a709c1c476f/scripts/edit-profile.js" id="janrainCaptureDevScript"></script> 
+
+</body>
+</html>
