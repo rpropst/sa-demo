@@ -14,7 +14,7 @@ namespace jumpcli
         {
             Console.WriteLine("JUMP cli");
 
-            Config myApp = new Config("https://pfizer-pse.janraincapture.com", "mw273mf5ewn44aduc72693rsqwhdth6x", "5j2pw6ab2zymm3aqchyt8jxveysh3n3c");
+            Config myApp = new Config("https://xxx.janraincapture.com", "REDACTED", "REDACTED");
 
             Entity e = new Entity(myApp);
             string result = e.Count();
